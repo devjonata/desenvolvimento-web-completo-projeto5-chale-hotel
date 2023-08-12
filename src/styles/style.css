@@ -57,14 +57,14 @@ body{
   height: 250px;
 }
 
-#menu{
+#menu__top{
   margin-left: 90px;
   margin-right: 15px;
   padding-top: 15px;
   height: 100px;
 }
 
-#menu__local{
+#menu__locals{
   border-top: 1px solid #b5ab56;
   border-bottom: 1px solid #b5ab56;
   padding-top: 5px;
@@ -86,5 +86,32 @@ a.reserva{
   background: #a29750;
   color: #fff5b0;
   padding: 5px 10px;
+  float: right;
+}
+
+#menu__content{
+  margin-top: 15px;
+}
+
+#menu__list{
+  float: left;
+  list-style: none;
+}
+
+#menu__list a{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+}
+
+#menu__list a:hover{
+  color: #fdf6be;
+}
+
+.depoimento{
+  width: 226px;
+  height: 164px;
   float: right;
 }
