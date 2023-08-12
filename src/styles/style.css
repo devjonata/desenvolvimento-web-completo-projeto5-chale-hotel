@@ -147,8 +147,55 @@ a.reserva{
   width: 90%;
 }
 
-#footer{
-  clear: both;
+#side__list{
+  list-style: none;
 }
 
+.side__list-item{
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 7em;
+}
+
+.side__list-item:hover{
+  background: #f6f3d6;
+  cursor: pointer;
+}
+
+.item__link img{
+  float: left;
+  margin-right: 1em;
+}
+
+.item__title{
+  font-size: 1em;
+  color: #615b2d;
+  background: url(../assets/imagens/ornamento.png) no-repeat center right;
+}
+
+.item__text{
+  font-size: 0.8em;
+  color: #000;
+}
+
+
+#footer{
+  clear: both;
+  padding: 16px;
+  background: #fff url(../assets/imagens/bg-rodape.png) repeat-x top;
+  color: #7d7647;
+}
+
+/* Formatação de textos */
+
+h2,h3{
+  color: #7d7647;
+  font-size: 1.1em;
+  padding: 5px 0;
+}
+
+p{
+  font-size: 1em;
+  padding: 5px 0;
+}
 
