@@ -10,8 +10,11 @@ body{
   margin: 15px;
 }
 
-#header{
-  background: #ede9cc;
+/* Cabeçalho do site */
+
+#header,
+#container{
+  background: #ede9cc url(../assets/imagens/bg-container.png) top center repeat-y;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
@@ -23,6 +26,8 @@ body{
   height: 15.4em;
   min-height: 250px;
 }
+
+/* Imagem de fundo e logo do cabeçalho */
 
 #container__logo{
   position: absolute;
@@ -45,6 +50,8 @@ body{
   height: 66px;
   text-indent: -9000px;
 }
+
+/* Botão de reserva lista de menu e depoimento sobre o hotel */
 
 #container__menu{
   position: absolute;
@@ -89,6 +96,8 @@ a.reserva{
   float: right;
 }
 
+/* Lista de menu do cabeçalho */
+
 #menu__content{
   margin-top: 15px;
 }
@@ -115,3 +124,31 @@ a.reserva{
   height: 164px;
   float: right;
 }
+
+/* Conteúdo principal */
+
+#container__main{
+  float: left;
+  width: 50%;
+  background: url(../assets/imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0;
+}
+
+#container__side{
+  float: right;
+  width: 50%;
+  background: url(../assets/imagens/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0;
+}
+
+.main__content,
+.side__content{
+  margin: 0 auto;
+  width: 90%;
+}
+
+#footer{
+  clear: both;
+}
+
+
